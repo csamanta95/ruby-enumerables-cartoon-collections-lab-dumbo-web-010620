@@ -29,6 +29,6 @@ def find_the_cheese(potentially_cheesy_items)# code an argument here
   potentially_cheesy_items.find do |maybe_cheese|
     cheeses.include?(maybe_cheese)
   end
-en
+end 
 
 find_the_cheese(potentially_cheesy_items)
